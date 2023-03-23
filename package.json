@@ -1,0 +1,40 @@
+{
+  "name": "peer-to-peer",
+  "version": "0.1.4",
+  "description": "simple peer to peer network using typescrpt",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elite-coder-5150/peer-to-peer-messaging.git"
+  },
+  "keywords": [
+    "typescript",
+    "peer2peer",
+    "express"
+  ],
+  "author": "Darrell Parkhouse",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node18": "^1.0.1",
+    "@types/express": "^4.17.17",
+    "@types/node": "^16.11.6",
+    "@types/uuid": "^9.0.1",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.4.0",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@types/jasmine": "^4.3.1",
+    "console-stamp": "^3.1.1",
+    "cross-fetch": "^3.1.5",
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/elite-coder-5150/peer-to-peer-messaging/issues"
+  },
+  "homepage": "https://github.com/elite-coder-5150/peer-to-peer-messaging#readme"
+}
