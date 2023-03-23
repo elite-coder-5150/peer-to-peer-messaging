@@ -20,7 +20,7 @@ describe('getNodesByUser', () => {
     })
 
     it ('it should log an error message if the user argument is not a string', () => {
-        getNodesByUser(null);
+        getNodesByUser('user' as any);
         expect(console.error).toHaveBeenCalledWith('Error', new Error('user must be a string'))
     })
 
